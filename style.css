@@ -1,0 +1,181 @@
+body {
+	margin: 0;
+	padding: 0;
+	line-height: 17px;
+}
+
+a, a:visited, a:active {
+	color: #7b90b5;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7b90b5;
+	text-decoration: underline;
+}
+
+p {
+	width: 500px;
+	float: right;
+	margin-left: 40px;
+}
+
+h1 {
+
+	color: #1b4491;
+	font-size: 42px;
+}
+
+h1 span {
+
+	color: #1b4491;
+	font-size: 21px;
+}
+
+h2 {
+	width: 180px;
+	height: 23px;
+	text-align: right;
+	float: left;
+	padding: 0;
+	margin: 0;
+	margin-bottom: -12px;
+	clear: both;
+	color: #1b4491;
+	font-size: 22px;
+
+}
+
+h3 {
+	width: 180px;
+	text-align: right;
+	float: left;
+	padding: 0;
+	clear: both;
+	color: #7b90b5;
+	font-size: 13px;
+}
+
+#wrapper {
+ width: 800px;
+ margin: 0 auto;
+ margin-top: 60px;
+ margin-bottom: 100px;
+}
+
+#navigation2 {
+	width: 720px;
+	margin-left: 38px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.entry {
+	width: 720px;
+	display: block;
+	padding-top: 55px;
+	clear: both;
+	margin-left: 4px;
+}
+
+div.content {
+	clear: both;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	display: block;
+	padding-top: 32px;
+}
+
+.personalinformation {
+	width: 300px;
+	float: left;
+	padding-top: 11px;
+	margin-left: 38px;
+	margin-bottom: 15px;
+}
+
+img.profilepicture {
+
+	background-image:url(images/frame.jpg);
+	background-repeat: no-repeat;
+	width:109px;
+	height:109px;
+	padding-top:20px;
+	padding-left:11px;
+	padding-right:11px;
+	padding-bottom:36px;
+	margin-left:50px;
+	float:left;
+}
+
+.personalinformation ul li.address {
+	background-image: url(images/icn-ad.gif);
+}
+
+.personalinformation ul li.email {
+
+	background-image: url(images/icn-mail.gif);
+}
+
+.personalinformation ul li.phone {
+	background-image: url(images/icn-tel.gif);
+}
+
+.personalinformation ul li.portfolio {
+
+	background-image: url(images/icn-web.gif);
+}
+
+.personalinformation ul li {
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	display: block;
+}
+
+ul.info {
+	float: right;
+	width: 500px;
+	margin-left: 40px;
+	list-style-type: none; 
+}
+
+ul.info li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	width: 500px;
+	padding-left: 10px;
+	background-position: 0 0.5em;
+	margin-top: 12px;
+}
+
+ul.language {
+	float: right;
+	width: 500px;
+	margin-left: 40;
+	list-style-type: none; 
+}
+
+ul.language li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	width: 500px;
+	background-position: 0 0.5em;
+	margin-top: 0px;
+}
+
+em {
+
+	font-family: Georgia, "Times New Roman", serif;
+	font-style: italic;
+	color: #777777;
+	font-size: 12px;
+	display: block;
+	padding-top: 3px;
+}
