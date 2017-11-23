@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+
+		function SetText(text)
+		{
+			if (localStorage.getItem("text") == null)
+			{
+				localStorage.setItem("text", text);
+			}
+			else
+			{
+			  localStorage.setItem("text", localStorage.getItem("text") + text);	
+			}
+		}
+
+
+		function GetText() {
+			return localStorage.getItem("text");
+		}
+
+		SetText("Javascript");
+		SetText(" is ");
+		SetText(" cool");
+
+		//console.log(GetText());
+		document.write(GetText());
+
+
+		var d = new Date();
+		var a = d.setMonth(d.getMonth() + 6) ;
+		document.write(toDateString(d)); 
+	</script>
+
+
+</body>
+</html>
